@@ -1,6 +1,5 @@
 import styled from 'styled-components';
 
-import React from 'react'
 
 export const Container = styled('div')(() => {
     return {
@@ -19,14 +18,3 @@ export const Container = styled('div')(() => {
             
   }
 })
-
-
-// export const Containerk = styled('div')(({ id }) => {
-// 	const isOnline = id % 2 === 0
-// 	return {
-// 		textAlign: 'center',
-// 		h1: {
-// 			color: isOnline ? 'green' : 'red',
-// 		},
-// 	}
-// })
